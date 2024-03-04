@@ -1,0 +1,27 @@
+
+.receipt {
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.order p {
+  margin: 5px 0;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  padding: 20px; 
+}
+
+.receipt {
+  flex: 1; 
+  margin: 10px; 
+  min-width: 300px; 
+}
+
